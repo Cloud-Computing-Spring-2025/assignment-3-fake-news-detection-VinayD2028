@@ -1,5 +1,5 @@
 # Assignment-5-FakeNews-Detection
-    Build a simple machine learning pipeline using Spark MLlib to classify news articles as FAKE or REAL based on their content.
+Build a simple machine learning pipeline using Spark MLlib to classify news articles as FAKE or REAL based on their content.
     
 ### Dataset
 - Generated using 
@@ -16,15 +16,15 @@
 5. Evaluate model (Accuracy, F1 Score in `task5_output.csv`)
 
 ### ▶️ How to Run the project
-    1. Install the faker module
+1. Install the faker module
     ```bash
         pip install faker
     ```
-    2. Install pyspark
+2. Install pyspark
     ```bash
         pip install pyspark
     ```
-    3. Run the news classifier script
+3. Run the news classifier script
     ```bash
         spark-submit news_classification_pipeline.py
     ```
