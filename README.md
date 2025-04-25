@@ -8,12 +8,16 @@ Build a simple machine learning pipeline using Spark MLlib to classify news arti
 ```
 - File: `fake_news_sample.csv`
 
-### 🧪 Tasks and corresponding output files
-1. Load and explore dataset (`task1_output.csv`)
-2. Preprocess and tokenize text (`task2_output.csv`)
-3. Extract TF-IDF features and encode labels (`task3_output.csv`)
-4. Train logistic regression and predict (`task4_output.csv`)
-5. Evaluate model (Accuracy, F1 Score in `task5_output.csv`)
+### 🧠 Brief Task Descriptions
+
+| Task | Description |
+|------|-------------|
+| **Task 1: Load & Explore** | Load the dataset (`fake_news_sample.csv`) into a Spark DataFrame, display sample rows, count total articles, and extract distinct labels. |
+| **Task 2: Text Preprocessing** | Clean and prepare the text by converting it to lowercase, tokenizing the text into words, and removing common stopwords. |
+| **Task 3: Feature Extraction** | Transform the tokenized text into numerical features using TF-IDF. Convert categorical labels ("FAKE", "REAL") into numeric indices for model training. |
+| **Task 4: Model Training** | Split the dataset into training and test sets. Train a logistic regression model using Spark MLlib and make predictions on the test set. |
+| **Task 5: Model Evaluation** | Evaluate the model’s performance using Accuracy and F1 Score metrics. Save the results to a CSV file for reporting. |
+
 
 ### ▶️ How to Run the project
 1. Install the faker module
